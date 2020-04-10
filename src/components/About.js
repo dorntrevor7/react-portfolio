@@ -18,7 +18,9 @@ export default function About() {
     marginBottom: "30px",
   };
   return (
-    <Container>
+    <Container id="about">
+      <br />
+      
       <Image
         style={image}
         src="https://avatars3.githubusercontent.com/u/59455474?s=300&v=4"

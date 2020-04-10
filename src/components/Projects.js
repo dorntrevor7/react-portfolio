@@ -4,19 +4,18 @@ import { Container, Card, Button, Row, Col } from "react-bootstrap";
 export default function Projects() {
   const contain = {
     marginBottom: "80px",
-    padding: "30px",
   };
   const stylehead = {
-    marginBottom: "30px",
+    padding: "30px",
     textShadow: "2px 2px #fad67b",
   };
   return (
-    <Container>
+    <Container id="projects">
       <div style={contain}>
         <h3 style={stylehead}>Projects</h3>
-        <Row>
+        <Row style={{ margin: "auto" }}>
           {/* react.js projects */}
-          <Col>
+          <Col style={{ width: "33.33%" }}>
             {/* NoSql projects */}
             <Card style={{ width: "18rem", height: "25rem" }}>
               <Card.Img variant="top" src="./imgs/sc-nosql-workout.png" />
@@ -29,27 +28,32 @@ export default function Projects() {
                 </Card.Text>
                 <Row>
                   <Col>
-                    <Button variant="info">
-                      {"Github"}
-                      <a href="https://github.com/dorntrevor7/NoSQL-Workout-Tracker" />
+                    <Button
+                      variant="info"
+                      href="https://github.com/dorntrevor7/NoSQL-Workout-Tracker"
+                    >
+                      Github
                     </Button>
                   </Col>
                   <Col>
-                    <Button variant="info">
-                      {"Open App"}
-                      <a href="https://tranquil-chamber-85100.herokuapp.com/" />
+                    <Button
+                      variant="info"
+                      href="https://tranquil-chamber-85100.herokuapp.com/"
+                    >
+                      Open App
                     </Button>
                   </Col>
                 </Row>
               </Card.Body>
             </Card>
           </Col>
+          <br />
 
           {/* Handlebars project */}
-          <Col>
+          <Col style={{ width: "33.33%" }}>
             <Card style={{ width: "18rem", height: "25rem" }}>
               <Card.Img
-                style={{ width: "18rem", height: "10rem" }}
+                style={{ width: "17.85rem", height: "10rem" }}
                 variant="top"
                 src="./imgs/SC-BURGER.png"
               />
@@ -62,24 +66,29 @@ export default function Projects() {
                 </Card.Text>
                 <Row>
                   <Col>
-                    <Button variant="info">
-                      {"Github"}
-                      <a href="https://github.com/dorntrevor7/Burger-Bucketlist" />
+                    <Button
+                      variant="info"
+                      href="https://github.com/dorntrevor7/Burger-Bucketlist"
+                    >
+                      Github
                     </Button>
                   </Col>
                   <Col>
-                    <Button variant="info">
-                      {"Open App"}
-                      <a href="https://frozen-shore-70892.herokuapp.com/" />
+                    <Button
+                      variant="info"
+                      href="https://frozen-shore-70892.herokuapp.com/"
+                    >
+                      Open App
                     </Button>
                   </Col>
                 </Row>
               </Card.Body>
             </Card>
           </Col>
+          <br />
 
           {/* PWA Project Online/Offline */}
-          <Col>
+          <Col style={{ width: "33.33%" }}>
             <Card style={{ width: "18rem", height: "25rem" }}>
               <Card.Img variant="top" src="./imgs/sc-pwa.png" />
               <Card.Body>
@@ -91,15 +100,19 @@ export default function Projects() {
                 </Card.Text>
                 <Row>
                   <Col>
-                    <Button variant="info">
-                      {"Github"}
-                      <a href="https://github.com/dorntrevor7/Budget-Tracker" />
+                    <Button
+                      variant="info"
+                      href="https://github.com/dorntrevor7/Budget-Tracker"
+                    >
+                      Github
                     </Button>
                   </Col>
                   <Col>
-                    <Button variant="info">
-                      {"Open App"}
-                      <a href="https://strawberry-cobbler-31824.herokuapp.com/" />
+                    <Button
+                      variant="info"
+                      href="https://strawberry-cobbler-31824.herokuapp.com/"
+                    >
+                      Open App
                     </Button>
                   </Col>
                 </Row>
@@ -108,6 +121,12 @@ export default function Projects() {
           </Col>
         </Row>
       </div>
+
+      <br />
+
+      <br />
+
+      <br />
     </Container>
   );
 }

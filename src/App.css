@@ -1,18 +1,14 @@
-body{
+body {
   background: #22c1c3; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to bottom,
     #fdbb2d,
     #22c1c3
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #fdbb2d,
-    #22c1c3
-  );
+  background: linear-gradient(to bottom, #fdbb2d, #22c1c3);
 }
 
-.colorfonts{
+.colorfonts {
   font-weight: bold;
-  font-family: 'Gotu', sans-serif;
+  font-family: "Gotu", sans-serif;
 }
