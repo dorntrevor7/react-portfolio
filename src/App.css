@@ -1,4 +1,4 @@
-.body{
+body{
   height: 100vh;
   background: #22c1c3; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -13,8 +13,6 @@
   );
 }
 
-.navbar{
-  width: 100%;
-  height: 50px;
-  background-color: rgb(245, 245, 245);
+.colorfonts{
+  font-family: 'Gotu', sans-serif;
 }

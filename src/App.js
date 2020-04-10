@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Body from "./components/Body";
+import Jumbotron from "./components/Jumbotron";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Body />
+      <Navbar className="nav-routes"/>
+      <Jumbotron />
     </>
   );
 }
