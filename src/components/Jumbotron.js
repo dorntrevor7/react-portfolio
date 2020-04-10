@@ -1,7 +1,7 @@
 import React from "react";
 import { Jumbotron, Container } from "react-bootstrap";
 
-export default function Body() {
+export default function Welcome() {
   const styles = {
     marginTop: "50px",
     backgroundColor: "rgba(255, 0, 0, 0)",
@@ -14,6 +14,7 @@ export default function Body() {
           This is a Professional Portfolio page using react and react-bootstrap.
         </p>
 
+        
         <br />
 
         <br />
@@ -27,6 +28,13 @@ export default function Body() {
           <li>MySql</li>
           <li>MongoDB</li>
         </ul>
+
+        <br />
+
+        <br />
+
+        <br />
+        
       </Container>
     </Jumbotron>
   );

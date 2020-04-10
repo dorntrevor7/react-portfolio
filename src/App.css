@@ -1,5 +1,4 @@
 body{
-  height: 100vh;
   background: #22c1c3; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to bottom,
@@ -14,5 +13,7 @@ body{
 }
 
 .colorfonts{
+  text-align: center;
+  font-weight: bold;
   font-family: 'Gotu', sans-serif;
 }
