@@ -39,7 +39,7 @@ export default function About() {
           worker, I take risks, and never regret, just look forward. I am a
           boolean method whose love will always return true.
         </p>
-        </div>
-      </Container>
+      </div>
+    </Container>
   );
 }
