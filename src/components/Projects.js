@@ -2,22 +2,21 @@ import React from "react";
 import { Container, Card, Button, Row, Col } from "react-bootstrap";
 
 export default function Projects() {
-  const contain = {
-    marginBottom: "80px",
-  };
   const stylehead = {
     padding: "30px",
     textShadow: "2px 2px #fad67b",
   };
   return (
     <Container id="projects">
-      <div style={contain}>
-        <h3 style={stylehead}>Projects</h3>
-        <Row style={{ margin: "auto" }}>
-          {/* react.js projects */}
-          <Col style={{ width: "33.33%" }}>
-            {/* NoSql projects */}
-            <Card style={{ width: "18rem", height: "25rem" }}>
+      <Container>
+        <Row>
+          <h3 style={stylehead}>Projects</h3>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col sm={12} lg={4} style={{ marginBottom: "25px" }}>
+            <Card className="cardStyle">
               <Card.Img variant="top" src="./imgs/sc-nosql-workout.png" />
               <Card.Body>
                 <Card.Title>Workout Tracker / NoSql</Card.Title>
@@ -47,15 +46,11 @@ export default function Projects() {
               </Card.Body>
             </Card>
           </Col>
-          <br />
-
-          {/* Handlebars project */}
-          <Col style={{ width: "33.33%" }}>
-            <Card style={{ width: "18rem", height: "25rem" }}>
+          <Col sm={12} lg={4} style={{ marginBottom: "25px" }}>
+            <Card className="cardStyle">
               <Card.Img
-                style={{ width: "17.85rem", height: "10rem" }}
                 variant="top"
-                src="./imgs/SC-BURGER.png"
+                src="../imgs/scBurger.png"
               />
               <Card.Body>
                 <Card.Title>Burger Bucketlist / HBS</Card.Title>
@@ -85,11 +80,8 @@ export default function Projects() {
               </Card.Body>
             </Card>
           </Col>
-          <br />
-
-          {/* PWA Project Online/Offline */}
-          <Col style={{ width: "33.33%" }}>
-            <Card style={{ width: "18rem", height: "25rem" }}>
+          <Col sm={12} lg={4} style={{ marginBottom: "25px" }}>
+            <Card className="cardStyle">
               <Card.Img variant="top" src="./imgs/sc-pwa.png" />
               <Card.Body>
                 <Card.Title>Budget Tracker / PWA</Card.Title>
@@ -120,8 +112,7 @@ export default function Projects() {
             </Card>
           </Col>
         </Row>
-      </div>
-
+      </Container>
       <br />
 
       <br />

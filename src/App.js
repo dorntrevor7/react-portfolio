@@ -11,11 +11,11 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar className="nav-routes" />
-        <Jumbotron />
-        <About />
-        <Projects />
-        <Contact />
+          <Navbar className="nav-routes" />
+          <Jumbotron />
+          <About />
+          <Projects />
+          <Contact />
       </Router>
     </>
   );

@@ -9,7 +9,7 @@ export default function Welcome() {
   return (
     <Jumbotron fluid style={styles}>
       <Container id="#home">
-        <h1>Welcome to my Portfolio Page</h1>
+        <h1 className='jumbo'>Welcome to my Portfolio Page</h1>
         <p>
           This is a Professional Portfolio page using react and react-bootstrap.
         </p>

@@ -1,6 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import { Navbar, Nav } from "react-bootstrap";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Navbar, Nav, Container } from "react-bootstrap";
 
 export default function navbar() {
   const stylesr = {
@@ -18,18 +18,22 @@ export default function navbar() {
       <Router>
         <Navbar
           bg="dark"
+          expand="lg"
           variant="dark"
           className="colorfonts"
           style={{ boxShadow: "0px 10px 10px 10px #343a40" }}
         >
-          <Navbar.Brand href="#home" style={stylesr}>
-            Trevor Dorn
+          <Navbar.Brand href="#home" style={stylesr} className="navname">
+            <span>Trevor Dorn</span>
           </Navbar.Brand>
-          <Nav className="ml-auto" style={stylesl}>
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
-          </Nav>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ml-auto" style={stylesl}>
+              <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#projects">Projects</Nav.Link>
+              <Nav.Link href="#contact">Contact</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
         </Navbar>
       </Router>
     </>
