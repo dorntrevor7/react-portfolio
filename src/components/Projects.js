@@ -17,7 +17,7 @@ export default function Projects() {
         <Row>
           <Col sm={12} lg={4} style={{ marginBottom: "25px" }}>
             <Card className="cardStyle">
-              <Card.Img variant="top" src="./imgs/sc-nosql-workout.png" />
+              <Card.Img variant="top" src="./images/SC_BURGER.png" alt="Img of NoSql app"/>
               <Card.Body>
                 <Card.Title>Workout Tracker / NoSql</Card.Title>
                 <Card.Text>
@@ -50,7 +50,8 @@ export default function Projects() {
             <Card className="cardStyle">
               <Card.Img
                 variant="top"
-                src="../imgs/scBurger.png"
+                src="./imgs/SC-BURGER.png"
+                alt="Img of Burger app"
               />
               <Card.Body>
                 <Card.Title>Burger Bucketlist / HBS</Card.Title>
@@ -82,7 +83,8 @@ export default function Projects() {
           </Col>
           <Col sm={12} lg={4} style={{ marginBottom: "25px" }}>
             <Card className="cardStyle">
-              <Card.Img variant="top" src="./imgs/sc-pwa.png" />
+              <Card.Img variant="top" src="./imgs/sc_pwa.png" 
+              alt="Img of Budget Tracker app"/>
               <Card.Body>
                 <Card.Title>Budget Tracker / PWA</Card.Title>
                 <Card.Text>

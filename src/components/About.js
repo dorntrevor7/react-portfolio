@@ -31,15 +31,15 @@ export default function About() {
         <h3 style={stylehead}>About Me</h3>
         <hr />
         <p style={stylebody}>
-          Hello, my name is Trevor Dorn. I was born and raised in Chandler,
-          Arizona. I graduated from Basha High School in May of 2018. All
-          throughout my childhood and high school career I played sports. I have
-          gotten told that I look like a jock, but am a dork inside. I love to
-          have fun, party, and just hang out with friends. I am aspiring to be a
-          full-stack web developer and apply the skills I have learned to
-          achieve that goal. I may fail, but I never stop trying, I am a hard
-          worker, I take risks, and never regret, just look forward. I am a
-          boolean method whose love will always return true.
+          Full Stack Web Developer and graduate from the University of Arizona
+          Coding Bootcamp. Learned and developed skills for JavaScript, React,
+          CSS, HTML, and Java ​to ensure my clients have an absolute advantage
+          over their competition resulting by designing new and captivating
+          experiences​. Team leader while being a teammate, competitive and a
+          quick learner. E​quipped with soft skills like working
+          collaboratively, managing time, and being innovative with a team to
+          ensure optimal results for user-centered and technology-centered
+          designs.
         </p>
       </div>
     </Container>
