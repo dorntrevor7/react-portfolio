@@ -1,5 +1,8 @@
 import React from "react";
-import { Container, Card, Button, Row, Col } from "react-bootstrap";
+import { Container, Card, Button, Row, Col, Img } from "react-bootstrap";
+import Burger from './images/burger.png';
+import Fitness from './images/fitness.png';
+import Tracker from './images/tracker.png';
 
 export default function Projects() {
   const stylehead = {
@@ -17,7 +20,7 @@ export default function Projects() {
         <Row>
           <Col sm={12} lg={4} style={{ marginBottom: "25px" }}>
             <Card className="cardStyle">
-              <Card.Img variant="top" src="./images/SC_BURGER.png" alt="Img of NoSql app"/>
+              <Card.Img variant="top" src={Fitness} alt="Img of NoSql app"/>
               <Card.Body>
                 <Card.Title>Workout Tracker / NoSql</Card.Title>
                 <Card.Text>
@@ -50,7 +53,7 @@ export default function Projects() {
             <Card className="cardStyle">
               <Card.Img
                 variant="top"
-                src="./imgs/SC-BURGER.png"
+                src={Burger}
                 alt="Img of Burger app"
               />
               <Card.Body>
@@ -83,7 +86,7 @@ export default function Projects() {
           </Col>
           <Col sm={12} lg={4} style={{ marginBottom: "25px" }}>
             <Card className="cardStyle">
-              <Card.Img variant="top" src="./imgs/sc_pwa.png" 
+              <Card.Img variant="top" src={Tracker} 
               alt="Img of Budget Tracker app"/>
               <Card.Body>
                 <Card.Title>Budget Tracker / PWA</Card.Title>
@@ -118,7 +121,7 @@ export default function Projects() {
       <br />
 
       <br />
-
+     
       <br />
     </Container>
   );

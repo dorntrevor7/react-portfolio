@@ -20,7 +20,6 @@ export default function About() {
   return (
     <Container id="about">
       <br />
-
       <Image
         style={image}
         src="https://avatars1.githubusercontent.com/u/59455474?s=460&u=714ce59b4e66094f8f5c06a49bbeb7a292541188&v=4"
